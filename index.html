@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="registration-form">
+        <div class="signup-heading">
+            <h1>SignUp Form</h1>
+        </div>
+        <form action="./signin.html" class="signin-form">
+            <label for="name"> Name:</label>
+            <input type="text" placeholder="*Enter name" id="name" required><br>
+            <p class="validation" id="errorName"></p>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="*Enter-email" id="email" required><br>
+            <p class="validation" id="erroremail"></p>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="*Enter-password" id="password" required><br>
+            <p class="validation" id="errorpassword"></p>
+            <label for="conform">Confirm Password:</label>
+            <input type="password" id="conform" required><br>
+            <p class="validation" id="errorCfPass"></p>
+            <p class="validation" id="error"></p>
+            <input type="Submit" id="btn" value="Submit">
+        </form>
+        <div id="submission" style="color: red;"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

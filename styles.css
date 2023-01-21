@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(8, 3, 3);
+    color: rgb(211, 175, 30);
+}
+
+.registration-form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.validation {
+    color: red;
+    font-size: small;
+    line-height: 30px;
+    text-align: end;
+}
+
+.signin-form {
+    width: 70%;
+    position: absolute;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+#btn {
+    width: 10%;
+    background-color: rgb(161, 16, 28);
+    color: rgb(7, 5, 3);
+    font-size: large;
+    border-radius: 20px;
+    float: inherit;
+}
+input {
+    background-color: rgb(218, 215, 212);
+    color: black;
+    float: right;
+    width: 50%;
+    margin-top: 1%;
+    margin-right: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+label {
+    float: left;
+    font-size: 18px;
+}
